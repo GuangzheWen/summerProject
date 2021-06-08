@@ -8,9 +8,9 @@ protocol Tax {
 }
 
 class Ohio: Tax {
-    func changeTax(newTax: Double) {
-        states  = newTax
-    }
+//    func changeTax(newTax: Double) {
+//        states  = newTax
+//    }
     
     var national: Double = 0.25
     
@@ -21,16 +21,22 @@ class Ohio: Tax {
     
 }
 
+protocol Donate {
+    var donateRate: Double { get }
+}
+
 var a = Ohio()
 print(a.national)
 print(a.individual)
 print(a.states)
 
-struct Taxas: Tax {
+struct Taxas: Tax, Donate {
+    var donateRate: Double
+    
     // 在struct中方法修改属性值需要mutating
-    mutating func changeTax(newTax: Double) {
-        states = newTax
-    }
+//    mutating func changeTax(newTax: Double) {
+//        states = newTax
+//    }
     
     var national: Double
     
@@ -48,5 +54,13 @@ struct Taxas: Tax {
     
 }
 
-var b = Taxas(national: 1, states: 1, individual: 1)
+var b = Taxas(donateRate: 1, national: 1, states: 1, individual: 1)
 print(b.national, b.individual, b.states)
+
+// 补充协议：强制遵守也
+
+extension Tax {
+    mutating func  changeTax(newTax: Double) {
+        states = newTax
+    }
+}
