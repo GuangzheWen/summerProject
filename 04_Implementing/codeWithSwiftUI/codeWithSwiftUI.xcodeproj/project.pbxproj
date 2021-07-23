@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B011FDA226986767002F6107 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDA126986767002F6107 /* User.swift */; };
+		B011FDA4269867D3002F6107 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDA3269867D3002F6107 /* Identity.swift */; };
+		B011FDA626986B2C002F6107 /* BarberShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDA526986B2C002F6107 /* BarberShop.swift */; };
+		B011FDA826987012002F6107 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDA726987012002F6107 /* Order.swift */; };
+		B011FDAA26987271002F6107 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDA926987271002F6107 /* Service.swift */; };
+		B011FDAC269873BF002F6107 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDAB269873BF002F6107 /* Customer.swift */; };
+		B011FDAE26987668002F6107 /* OrderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDAD26987668002F6107 /* OrderStatus.swift */; };
+		B011FDB0269876B4002F6107 /* PaymentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B011FDAF269876B4002F6107 /* PaymentStatus.swift */; };
 		B0136F81268EF46D00896CDE /* codeWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0136F80268EF46D00896CDE /* codeWithSwiftUIApp.swift */; };
 		B0136F83268EF46D00896CDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0136F82268EF46D00896CDE /* ContentView.swift */; };
 		B0136F85268EF47000896CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0136F84268EF47000896CDE /* Assets.xcassets */; };
@@ -25,6 +33,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B011FDA126986767002F6107 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B011FDA3269867D3002F6107 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		B011FDA526986B2C002F6107 /* BarberShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarberShop.swift; sourceTree = "<group>"; };
+		B011FDA726987012002F6107 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B011FDA926987271002F6107 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B011FDAB269873BF002F6107 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		B011FDAD26987668002F6107 /* OrderStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStatus.swift; sourceTree = "<group>"; };
+		B011FDAF269876B4002F6107 /* PaymentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatus.swift; sourceTree = "<group>"; };
 		B0136F7D268EF46D00896CDE /* codeWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0136F80268EF46D00896CDE /* codeWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeWithSwiftUIApp.swift; sourceTree = "<group>"; };
 		B0136F82268EF46D00896CDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +122,14 @@
 				B0136FB8268EF6F900896CDE /* Appointment.swift */,
 				B0136FC0268F0A3700896CDE /* Settings.swift */,
 				B0136FC4268F122500896CDE /* Barber.swift */,
+				B011FDAB269873BF002F6107 /* Customer.swift */,
+				B011FDA526986B2C002F6107 /* BarberShop.swift */,
+				B011FDA126986767002F6107 /* User.swift */,
+				B011FDA3269867D3002F6107 /* Identity.swift */,
+				B011FDA726987012002F6107 /* Order.swift */,
+				B011FDAD26987668002F6107 /* OrderStatus.swift */,
+				B011FDAF269876B4002F6107 /* PaymentStatus.swift */,
+				B011FDA926987271002F6107 /* Service.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,11 +206,19 @@
 				B0136FB4268EF5B500896CDE /* AppointmentView.swift in Sources */,
 				B0136FB2268EF5A800896CDE /* FavoriteView.swift in Sources */,
 				B0136FC3268F0B3E00896CDE /* InternetCheck.swift in Sources */,
+				B011FDA626986B2C002F6107 /* BarberShop.swift in Sources */,
 				B0136FBB268EF92C00896CDE /* SingleAppointmentView.swift in Sources */,
+				B011FDAA26987271002F6107 /* Service.swift in Sources */,
 				B0136F83268EF46D00896CDE /* ContentView.swift in Sources */,
+				B011FDA826987012002F6107 /* Order.swift in Sources */,
+				B011FDAE26987668002F6107 /* OrderStatus.swift in Sources */,
 				B0136FC1268F0A3700896CDE /* Settings.swift in Sources */,
+				B011FDA226986767002F6107 /* User.swift in Sources */,
+				B011FDA4269867D3002F6107 /* Identity.swift in Sources */,
 				B0136FB0268EF59D00896CDE /* ExploreView.swift in Sources */,
+				B011FDAC269873BF002F6107 /* Customer.swift in Sources */,
 				B0136FBF268F040B00896CDE /* AppointmentDetailView.swift in Sources */,
+				B011FDB0269876B4002F6107 /* PaymentStatus.swift in Sources */,
 				B0136FB6268EF5C500896CDE /* ProfileView.swift in Sources */,
 				B0136FC7268F15CF00896CDE /* BarberDetailView.swift in Sources */,
 				B0136FC5268F122500896CDE /* Barber.swift in Sources */,
